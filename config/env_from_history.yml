@@ -1,0 +1,15 @@
+name: test_avatar
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - ca-certificates
+  - openssl
+  - pytorch-lightning
+  - monai
+  - nibabel
+  - matplotlib
+  - tqdm
+  - certifi
+  - ipykernel
+prefix: /home/rocremes/mambaforge/envs/test_avatar
