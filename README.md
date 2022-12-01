@@ -3,11 +3,11 @@
 ## Initialisation de l'environnement
 Afin de créer un environnement virtuel contenant toutes les dépendances, commencez par installer [mamba](https://mamba.readthedocs.io/en/latest/installation.html) (version améliorée de conda). Une fois installé, redémarez un terminal et lancez la ligne de commande suivante en remplaçant 'envname' par le nom que vous souhaitez donner à votre environement virtuel. 
 
-`mamba create -n envname -f config/environment.yml`
+`mamba env create -n envname -f config/environment.yml`
 
 Si l'installation de toutes les dépendances ne fonctionne pas correctement, lancez la commande suivante. Et si ça ne fonctionne toujours pas, me contacter
 
-`mamba create -n envname -f config/env_from_history.yml`
+`mamba env create -n envname -f config/env_from_history.yml`
 
 
 Une fois toutes les dépendances installées, activez l'environnement virtuel que vous venez de créer, en remplaçant 'envname' par le nom que vous avez choisi pour votre environnement.
